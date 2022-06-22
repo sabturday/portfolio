@@ -2,4 +2,29 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFBBEC;
+    /*background: -webkit-radial-gradient(center, #FFBBEC, #A9C9FF);
+    background: -moz-radial-gradient(center, #FFBBEC, #A9C9FF);*/
+    background-image: radial-gradient(circle, #FFBBEC, #A9C9FF);
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px) saturate(180%);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.nav-link {
+    color: #34435E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover {
+    color: #34435E;
+    text-decoration: underline;
 }
