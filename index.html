@@ -16,38 +16,130 @@
 
     <body>
 
-        <nav>
+        <nav class="sticky-top">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Experiences</a>
+                    <a class="nav-link" href="#about">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Enjoyment</a>
+                    <a class="nav-link" href="#works">Works</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Works</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
+
+        <div class="first-container">
+            <header class="text-center p-5" id="home">
+                <h1 class="mb-3">Hi, I'm Sabrina</h1>
+                <ul class="list-inline">
+                    <li class="list-inline-item">Front-End Developer</li>
+                    <li class="list-inline-item">Graphic Designer</li>
+                    <li class="list-inline-item">Quality Assurance</li>
+                </ul>
+                <a href="https://www.linkedin.com/in/sabrinamisyell/" target="_blank" role="button" class="btn btn-learn mt-3 mb-5">Hire Me</a>
+            </header>
+        </div>
         
-        <main>
-            <div class="d-flex justify-content-center">
-                <div class="card text-center mx-auto" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="second-container" id="about">
+            <main class="p-5">
+                <h1 class="text-center mb-5">About Me</h1>
+                <dl class="row mb-0">
+                    <dt class="col-sm-3"><p>General</p></dt>
+                    <dd class="col-sm-9"><p>I'm a Fresh Graduate majoring in <span>Software Engineering</span> from 13 Bandung Vocational High School year 2022. Currently I'm working as a <span>Quality Assurance Freelancer.</span></p></dd>
+                    <dt class="col-sm-3"><p>Recognitions</p></dt>
+                    <dd class="col-sm-9"><p>I was once trusted by my school to be the <span>Front-End Developer</span> for the <a href="https://pemetaan.hubin13.web.id/" target="_blank">Industrial Work Practice website</a> and <span>Quality Assurance</span> for the <a href="https://github.com/codddicted/pilketos-web" target="_blank">Election of Student Council President website</a> in 2021.</p></dd>
+                    <dt class="col-sm-3"><p>Experience</p></dt>
+                    <dd class="col-sm-9"><p>I had an internship as a <span>Graphic Designer</span> at Telkom Wredatama Service Cooperative for 4 months. There I create <a href="https://instagram.com/sopasty.id" target="_blank">Instagram contents</a> with other colleagues. I got <span>97,4</span> for Industrial Work Practice Score.</p></dd>
+                    <dt class="col-sm-3"><p>Skills</p></dt>
+                    <dd class="col-sm-9">
+                        <dl class="row">
+                            <dt class="col-sm-4"><p class="about-roles">Front-End Developer</p></dt>
+                            <dd class="col-sm-8"><p>HTML, CSS, Bootstrap, JS (currently learning).</p></dd>
+                            <dt class="col-sm-4"><p class="about-roles">Graphic Designer</p></dt>
+                            <dd class="col-sm-8"><p>Canva, Corel Draw.</p></dd>
+                            <dt class="col-sm-4"><p class="about-roles">Quality Assurance</p></dt>
+                            <dd class="col-sm-8"><p>CSS Viewer Console, Github, JS (currently learning).</p></dd>
+                            <dt class="col-sm-4"><p class="about-roles">UI/UX Designer</p></dt>
+                            <dd class="col-sm-8"><p>Figma.</p></dd>
+                        </dl>
+                    </dd>
+                </dl>
+            </main>
+        </div>
+
+        <div class="third-container" id="works">
+            <main class="p-5">
+                <h1 class="text-center mb-5">Works</h1>
+                <div class="d-flex flex-sm-row flex-column bd-highlight mb-3">
+                    <div class="p-2 bd-highlight">
+                        <figure class="figure">
+                            <img src="assets/prakerin.png" class="img-fluid rounded-3" alt="Industrial Work Practice">
+                            <figcaption class="figure-caption mt-3">
+                                <h6>Industrial Work Practice</h6>
+                                <p class="mb-1">as Front-End Developer</p>
+                                <a href="https://pemetaan.hubin13.web.id/" target="_blank">Visit here</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                        <figure class="figure">
+                            <img src="assets/pilketos.png" class="img-fluid rounded-3" alt="Election of Student Council President">
+                            <figcaption class="figure-caption mt-3">
+                                <h6>Election of Student Council President</h6>
+                                <p class="mb-1">as Quality Assurance</p>
+                                <a href="https://github.com/codddicted/pilketos-web" target="_blank">Visit here</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                        <figure class="figure">
+                            <img src="assets/minilemon.jpeg" class="img-fluid rounded-3" alt="Mini Lemon">
+                            <figcaption class="figure-caption mt-3">
+                                <h6>Mini Lemon (Work In Progress)</h6>
+                                <p class="mb-1">as Quality Assurance</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                        <figure class="figure">
+                            <img src="assets/calculator.jpeg" class="img-fluid rounded-3" alt="Calculator">
+                            <figcaption class="figure-caption mt-3">
+                                <h6>Calculator (Work In Progress)</h6>
+                                <p class="mb-1">Dicoding Project</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                        <figure class="figure">
+                            <img src="assets/sopasty.png" class="img-fluid rounded-3" alt="Sopasty">
+                            <figcaption class="figure-caption mt-3">
+                                <h6>SOPASTY</h6>
+                                <p class="mb-1">as Graphic Designer</p>
+                                <a href="https://instagram.com/sopasty.id" target="_blank">Visit here</a>
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
-            </div>
-        </main>
+            </main>
+        </div>
 
+        <div class="fourth-container" id="contact">
+            <main class="p-5 text-center">
+                <h1 class="mb-5">Get in Touch</h1>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><i class="fas fa-envelope-square"></i>misyellsabrina@gmail.com</li>
+                    <li class="list-inline-item"><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/sabrinamisyell/" target="_blank">Sabrina Misyell Aaliyah</a></li>
+                    <li class="list-inline-item"><i class="fab fa-github-square"></i><a href="https://github.com/sabturday">sabturday</a></li>
+                </ul>
+            </main>
+        </div>
+
+        <script src="https://kit.fontawesome.com/ee3c6548ac.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     </body>

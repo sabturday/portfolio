@@ -5,26 +5,136 @@
     box-sizing: border-box;
 }
 
-body {
-    background: #FFBBEC;
-    /*background: -webkit-radial-gradient(center, #FFBBEC, #A9C9FF);
-    background: -moz-radial-gradient(center, #FFBBEC, #A9C9FF);*/
-    background-image: radial-gradient(circle, #FFBBEC, #A9C9FF);
+body, .first-container {
+    background-color: #FFBBEC;
 }
 
 nav {
-    background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(20px) saturate(180%);
     padding-top: 1%;
     padding-bottom: 1%;
+    backdrop-filter: blur(20px) saturate(180%)
 }
 
 .nav-link {
-    color: #34435E;
+    color: #5D2E8C;
     font-family: 'Montserrat', sans-serif;
 }
 
 .nav-link:hover {
-    color: #34435E;
+    color: #5D2E8C;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #5D2E8C;
+    font-size: 80px;
+}
+
+header > .list-inline > .list-inline-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #5D2E8C;
+}
+
+.btn-learn {
+    background-color: #FF6666;
+    font-family: 'Montserrat', sans-serif;
+    padding: 18px 32px 18px 32px;
+    font-size: 16px;
+    color: #FFF;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.btn-learn:hover {
+    background-color: #fc7676;
+    color: #FFF;
+}
+
+.second-container {
+    background-color: #8EC5FC;
+}
+
+.second-container a {
+    color:#5D2E8C;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.second-container a:hover {
+    text-decoration: underline;
+}
+
+dt > p {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #5D2E8C;
+}
+
+span {
+    font-weight: 500;
+}
+
+.about-roles {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.third-container {
+    background-color: #CCFF66;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #5D2E8C;
+}
+
+figcaption > p {
+    font-size: 14px;
+}
+
+figcaption > a {
+    color: #5D2E8C;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+figcaption > a:hover {
+    color: #5D2E8C;
+    text-decoration: underline;
+}
+
+.fourth-container {
+    background-color: #FEFEFE;
+}
+
+.fourth-container > main > .list-inline > .list-inline-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #5D2E8C;
+    font-size: 20px;
+}
+
+i {
+    margin-right: 5px;
+    font-size: 24px;
+}
+
+.fourth-container > main > .list-inline > .list-inline-item > a {
+    color: #5D2E8C;
+    text-decoration: none;
+}
+
+.fourth-container > main > .list-inline > .list-inline-item > a:hover {
     text-decoration: underline;
 }
