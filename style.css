@@ -108,6 +108,7 @@ figcaption > a {
     color: #5D2E8C;
     font-weight: 500;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 figcaption > a:hover {
